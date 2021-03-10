@@ -1,0 +1,106 @@
+/*
+    Definições básicas
+*/
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*
+    Definições de menu
+*/
+#menu {
+    background-color: #212121;
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    height: 100%;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: mediumturquoise;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+#menu li a:hover {
+    background-color: mediumturquoise;
+    color: #212121;
+}
+
+.active {
+    border-bottom: 3px solid mediumturquoise;
+}
+
+/*
+    Definições da Home
+*/
+
+.container {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.container p {
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+/*
+    Definições da página Contato
+*/
+form {
+    margin-right: 30px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+input:focus {
+    outline-color: mediumturquoise;
+}
+
+textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    resize: none;
+}
+
+textarea:focus {
+    outline-color: mediumturquoise;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    background-color: mediumturquoise;
+    columns: #212121;
+    border: 0;
+    cursor: pointer;
+}
