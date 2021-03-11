@@ -12,6 +12,7 @@ function validaNome() {
     if(nome.value.length < 3) {
         txt.innerHTML = 'Nome inválido';
         txt.style.color = 'red';
+        nomeOk = false;
     } else {
         txt.innerHTML = 'Nome válido';
         txt.style.color = 'green';
@@ -27,6 +28,7 @@ function validaEmail() {
     if(email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
         txt.innerHTML = 'Email inválido';
         txt.style.color = 'red';
+        emailOk = false;
     } else {
         txt.innerHTML = 'Email válido';
         txt.style.color = 'green';
@@ -44,6 +46,7 @@ function validaAssunto() {
     if(assunto.value.length > 100) {
         txt.innerHTML = 'O campo assunto tem o limite de 100 caracteres';
         txt.style.color = 'red';
+        assuntoOk = false;
     } else {
         txt.innerHTML = 'Assunto OK';
         txt.style.color = 'green';
